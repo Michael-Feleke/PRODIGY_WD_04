@@ -231,17 +231,59 @@ span {
   margin: 1rem 0 3rem;
 }
 
-.portforlio {
+.portfolio {
   background: var(--snd-bg-color);
 }
 
-.portforlio h2 {
+.portfolio h2 {
   margin-bottom: 4rem;
 }
 
-.portforlio-container {
+.portfolio-container {
   dispaly: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   align-items: center;
+}
+
+.portfolio-container .portfolio-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+  dispaly: flex;
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+.portfolio-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s ease;
+  opacity: 0.7;
+}
+
+.portfolio-box:hover img {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.portfolio-box .portfolio-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  dispaly: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), var(--main-color));
+  transition: 0.5s ease;
+}
+
+.portfolio-box:hover .portfolio-layer {
+  transform: translateY(0);
 }
