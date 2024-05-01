@@ -240,7 +240,7 @@ span {
 }
 
 .portfolio-container {
-  dispaly: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   align-items: center;
@@ -250,21 +250,18 @@ span {
   position: relative;
   overflow: hidden;
   border-radius: 2rem;
-  dispaly: flex;
-  box-shadow: 0 0 1rem var(--main-color);
+  display: flex;
+  box-shadow: 0 0 1rem var(--bg-color);
 }
 
 .portfolio-box img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
   transition: 0.5s ease;
   opacity: 0.7;
 }
 
 .portfolio-box:hover img {
   transform: scale(1.1);
-  opacity: 1;
 }
 
 .portfolio-box .portfolio-layer {
@@ -272,7 +269,7 @@ span {
   bottom: 0;
   left: 0;
   transform: translateY(100%);
-  dispaly: flex;
+  display: flex;
   flex-direction: column;
   padding: 0 4rem;
   text-align: center;
@@ -286,4 +283,28 @@ span {
 
 .portfolio-box:hover .portfolio-layer {
   transform: translateY(0);
+}
+
+.portfolio-layer h4 {
+  font-size: 3rem;
+}
+
+.portfolio-layer p {
+  font-size: 1.6rem;
+  margin: 0.3rem 0 1rem;
+}
+
+.portfolio-layer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: var(--text-color);
+  border-radius: 50%;
+}
+
+.portfolio-layer a li {
+  font-size: 2rem;
+  color: var(--snd-bg-color);
 }
