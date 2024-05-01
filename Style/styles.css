@@ -194,10 +194,25 @@ span {
   margin-bottom: 5rem;
 }
 
-.services-content {
+.services-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+}
+
+.services-container .services-box {
+  flex: 1 1 30rem;
+  padding: 3rem 2rem 4rem;
+  background: var(--snd-bg-color);
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
+}
+
+.services-container .services-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
 }
