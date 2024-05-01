@@ -8,7 +8,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  fontfamily: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 :root {
@@ -19,7 +19,7 @@
 }
 
 html {
-  fontsize: 62.5%;
+  font-size: 62.5%;
   overflowx: hidden;
 }
 
@@ -41,21 +41,47 @@ section {
   padding: 2rem 9%;
   background: var(--bg-color);
   display: flex;
-  justifycontent: space-between;
-  alighitems: center;
+  justify-content: space-between;
+  align-items: center;
   z-index: 100;
 }
 
 .logo {
   fontsize: 2.5rem;
   color: var(--text-color);
-  fontweight: 700;
+  font-weight: 700;
   cursor: default;
 }
 
 .navbar a {
   fontsize: 1.5rem;
   color: var(--text-color);
-  marginleft: 4rem;
-  fontweight: 700;
+  margin-left: 4rem;
+  font-weight: 700;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: var(--text-color);
+}
+
+#menu-icon {
+  font-size: 3.6rem;
+  color: var(--text-color);
+  display: none;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2) {
+  margin-bottm: 2rem;
 }
