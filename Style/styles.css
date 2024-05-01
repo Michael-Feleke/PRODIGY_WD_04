@@ -176,8 +176,9 @@ span {
 }
 
 .about-content h2 {
-  text-align: center;
+  text-align: start;
   lint-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 .about-content h3 {
@@ -187,4 +188,16 @@ span {
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+}
+
+.services h2 {
+  margin-bottom: 5rem;
+}
+
+.services-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
