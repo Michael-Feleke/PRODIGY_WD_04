@@ -230,3 +230,18 @@ span {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
 }
+
+.portforlio {
+  background: var(--snd-bg-color);
+}
+
+.portforlio h2 {
+  margin-bottom: 4rem;
+}
+
+.portforlio-container {
+  dispaly: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
