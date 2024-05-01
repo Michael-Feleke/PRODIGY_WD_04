@@ -27,3 +27,35 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
 }
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background: var(--bg-color);
+  display: flex;
+  justifycontent: space-between;
+  alighitems: center;
+  z-index: 100;
+}
+
+.logo {
+  fontsize: 2.5rem;
+  color: var(--text-color);
+  fontweight: 700;
+  cursor: default;
+}
+
+.navbar a {
+  fontsize: 1.5rem;
+  color: var(--text-color);
+  marginleft: 4rem;
+  fontweight: 700;
+}
