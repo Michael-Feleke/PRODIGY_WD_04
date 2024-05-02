@@ -103,7 +103,7 @@ span {
 .home-img img {
   width: 25vw;
   height: 25vw;
-  border: 1rem solid var(--main-color);
+  border: 0.7rem solid var(--main-color);
   border-radius: 50%;
   object-fit: cover;
   animation: floatImage 4s ease-in-out infinite;
@@ -167,7 +167,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
+  gap: 2rem;
   background: var(--snd-bg-color);
 }
 
