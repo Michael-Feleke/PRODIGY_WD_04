@@ -1,5 +1,5 @@
 let menuIcon = document.querySelector("#menu-icon");
-let navbar = document.querySelector("navbar");
+let navbar = document.querySelector("header nav");
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle("fa-xmark");
@@ -17,16 +17,16 @@ window.onscroll = () => {
     let id = sec.getAttribute("id");
 
     if (top >= offset && top < offset + height) {
-      navlinks.forEach.apply((links) => {
+      navlinks.forEach((links) => {
         links.classList.remove("active");
         document
-          .queryselector(`header nav a[href*=` + id + `]`)
+          .querySelector('header nav a[href*="' + id + '"]')
           .classList.add("active");
       });
     }
   });
 
-  let header = document.queryselector("header");
+  let header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY > 100);
 
   menuIcon.classList.remove("fa-xmark");
