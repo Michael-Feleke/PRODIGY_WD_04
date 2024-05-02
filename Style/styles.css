@@ -437,4 +437,9 @@ span {
   .about {
     flex-direction: column;
   }
+
+  .about-img img {
+    width: 90vw;
+    margin-top: 4rem;
+  }
 }
