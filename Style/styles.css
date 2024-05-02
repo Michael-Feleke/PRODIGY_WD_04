@@ -431,7 +431,8 @@ span {
     font-size: 5rem;
   }
   .home-img img {
-    width: 90vw;
+    width: 60vw;
+    height: 60vw;
     margin-top: 4rem;
   }
   .about {
@@ -441,5 +442,16 @@ span {
   .about-img img {
     width: 90vw;
     margin-top: 4rem;
+  }
+
+  .services h2 {
+    margin-bottom: 3rem;
+  }
+  .portfolio h2 {
+    margin-bottom: 3rem;
+  }
+
+  .portfolio-container {
+    grid-template-column: repeat(2, 1fr);
   }
 }
