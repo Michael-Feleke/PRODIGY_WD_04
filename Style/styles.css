@@ -350,3 +350,35 @@ span {
   margin-top: 2rem;
   cursor: pointer;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 0%;
+  background: var(--snd-bg-color);
+}
+
+.footer-text {
+  font-size: 1.6rem;
+}
+
+.footer-icontop {
+  dispaly: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  background: var(--main-color);
+  border-radius: 0.8rem;
+  transition: 0.5 ease;
+}
+
+.footer-icontop a:hover {
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer-icontop a i {
+  font-size: 2rem;
+  color: var(--snd-bg-color);
+}
