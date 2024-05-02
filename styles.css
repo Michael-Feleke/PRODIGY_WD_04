@@ -255,6 +255,11 @@ span {
   align-items: center;
 }
 
+.portfolio-box {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .portfolio-container .portfolio-box {
   position: relative;
   overflow: hidden;
