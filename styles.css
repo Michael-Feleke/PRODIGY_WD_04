@@ -301,11 +301,13 @@ span {
 
 .portfolio-layer h4 {
   font-size: 3rem;
+  color: white;
 }
 
 .portfolio-layer p {
   font-size: 1.6rem;
   margin: 0.3rem 0 1rem;
+  color: white;
 }
 
 .portfolio-layer a {
