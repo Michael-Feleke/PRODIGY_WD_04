@@ -264,7 +264,6 @@ span {
   position: relative;
   overflow: hidden;
   border-radius: 2rem;
-  display: flex;
   box-shadow: 0 0 1rem var(--bg-color);
 }
 
